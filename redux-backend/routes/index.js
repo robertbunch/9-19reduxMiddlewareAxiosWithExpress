@@ -17,8 +17,12 @@ router.get('/dairy-inv',(req, res, next)=>{
     },
     {
         food: 'kefir',
-        quantity: 3,
+        quantity: 8,
     },
+    {
+      food: 'cottage cheese',
+      quantity: 18,
+  },    
   ]
   res.json(seedData);
 })
